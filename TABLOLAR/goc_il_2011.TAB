@@ -1,0 +1,16 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "goc_il_2011.xlsx"
+  Type XLS Titles Range "Sheet1!A2:C81"
+  Fields 3
+    plaka_no Char (2) Index 1 ;
+    il_adi Char (28) ;
+    oran Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "ac5ab4f0-4805-4f4e-adac-4ed27ab8a4ec"
+end_metadata

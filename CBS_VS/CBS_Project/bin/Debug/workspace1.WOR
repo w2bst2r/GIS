@@ -1,0 +1,46 @@
+!Workspace
+!Version  950
+!Charset WindowsLatin1
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\egitim_il_2013" As egitim_il_2013 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_il_2013" As Issizlik_il_2013 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_il_2010" As Issizlik_il_2010 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_il_2011" As Issizlik_il_2011 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_il_2012" As Issizlik_il_2012 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_bolge_2014" As Issizlik_bolge_2014 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_bolge_2016" As Issizlik_bolge_2016 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Issizlik_bolge_2015" As Issizlik_bolge_2015 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Il_bolge" As Il_bolge Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\egitim_il_2010" As egitim_il_2010 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\egitim_il_2011" As egitim_il_2011 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\egitim_il_2012" As egitim_il_2012 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\egitim_il_2014" As egitim_il_2014 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\egitim_il_2015" As egitim_il_2015 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2010" As goc_il_2010 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2011" As goc_il_2011 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2012" As goc_il_2012 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2013" As goc_il_2013 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2014" As goc_il_2014 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2015" As goc_il_2015 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\goc_il_2016" As goc_il_2016 Interactive
+Open Table "C:\Users\Karim El Guermai\Desktop\STUDY\CBS\CBS_Project\TABLOLAR\Iller" As Iller Interactive
+Map From Iller 
+  Position (0.0416667,0.0416667) Units "in"
+  Width 4.55833 Units "in" Height 3.55833 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Text Antialias Image High
+Set Map
+  CoordSys Earth Projection 3, 28, "m", 36, 25, 37.5, 40.5, 1003827.11, -1183453.0800000001
+  Center (997899.543,399319.994)
+  Zoom 977.711513 Units "mi"
+  Preserve Zoom Display Zoom
+  Distance Units "mi" Area Units "sq mi" XY Units "m"
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With IL_ADI
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 11.5" Orientation Portrait Copies 1
+ Papersize 1

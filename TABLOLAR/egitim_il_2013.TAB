@@ -1,0 +1,16 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "egitim_il_2013.xlsx"
+  Type XLS Titles Range "Sheet1!A2:C81"
+  Fields 3
+    plaka_no Char (2) Index 1 ;
+    il_adi Char (28) ;
+    oran Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "6264eca5-e324-48c0-bde7-f05be1e02946"
+end_metadata

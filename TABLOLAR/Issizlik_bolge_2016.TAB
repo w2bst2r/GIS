@@ -1,0 +1,16 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "issizlik_bolge_2016.xlsx"
+  Type XLS Titles Range "Sheet1!A2:C13"
+  Fields 3
+    BOLGE_NO Char (6) Index 1 ;
+    BOLGE_ADI Char (36) ;
+    ORAN Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "b44bd619-1d28-410c-90ff-acaca06377f4"
+end_metadata

@@ -1,0 +1,23 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsTurkish"
+  Fields 11
+    PLAKA_NO Char (2) Index 2 ;
+    SECMEN_SAYISI Float Index 4 ;
+    OY_SAYISI Float Index 6 ;
+    GECERLI_OY Float ;
+    DYP Integer Index 3 ;
+    ANAP Integer Index 1 ;
+    SHP Integer ;
+    RP Integer Index 5 ;
+    DSP Integer ;
+    SP Integer ;
+    BAGIMSIZ Integer ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "e6bb641c-e929-40b3-8c59-349012a0ad8f"
+end_metadata

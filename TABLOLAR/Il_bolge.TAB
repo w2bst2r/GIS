@@ -1,0 +1,16 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "il_bolge.xlsx"
+  Type XLS Titles Range "Sheet1!A2:C81"
+  Fields 3
+    PLAKA_NO Char (2) Index 2 ;
+    IL_ADI Char (28) ;
+    BOLGE_NO Char (8) Index 1 ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "ce67ce1a-57c3-4685-a184-90c4fa2c60c4"
+end_metadata

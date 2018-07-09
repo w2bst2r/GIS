@@ -1,0 +1,16 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "issizlik_il_2013.xlsx"
+  Type XLS Titles Range "Sheet1!A2:C81"
+  Fields 3
+    PLAKA_NO Char (2) Index 1 ;
+    IL_ADI Char (28) ;
+    ORAN Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "76366d61-b5d4-4cbf-a872-264e4cf51e0f"
+end_metadata

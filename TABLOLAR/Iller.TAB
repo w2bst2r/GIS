@@ -1,0 +1,26 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsTurkish"
+  Fields 2
+    IL_ADI Char (20) Index 1 ;
+    PLAKA_NO Char (2) Index 5 ;
+begin_metadata
+"\SNAPTHIN" = ""
+"\SNAPTHIN\EnableSnap" = "FALSE"
+"\SNAPTHIN\Node" = "0"
+"\SNAPTHIN\Vec" = "0"
+"\SNAPTHIN\TolUnit" = "0"
+"\SNAPTHIN\EnableThin" = "TRUE"
+"\SNAPTHIN\Bend" = "400"
+"\SNAPTHIN\Dist" = "400"
+"\SNAPTHIN\ThinUnit" = "7"
+"\SNAPTHIN\EnableArea" = "FALSE"
+"\SNAPTHIN\Area" = "0"
+"\SNAPTHIN\AreaUnit" = "14"
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "2590ce27-12e3-46d4-8484-721e5bfb01ac"
+end_metadata
