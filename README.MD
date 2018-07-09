@@ -16,3 +16,4 @@ Example of showing illiteracy rate between 2010-2015:
 
 Example of comparing between two thematics: 
 ![Example3](/SS/Capture4.jpg?raw=true)
+
